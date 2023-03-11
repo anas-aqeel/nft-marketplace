@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    min-height: 100vh;
+    background: #0E1128;
+}
+.nft-pro{
+    width: auto;
+    height: 100%;
+    max-width: unset !important;
+}
+.head-txt{
+
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.btc-btn{
+    background: linear-gradient(90deg, #9504F3 0%, #4129A1 100%);
+border-radius: 60px;
+padding: 8px 31px 8px 31px;
+}
